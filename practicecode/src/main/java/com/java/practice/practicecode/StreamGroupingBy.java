@@ -1,6 +1,8 @@
 package com.java.practice.practicecode;
 
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collector;
@@ -21,7 +23,10 @@ public class StreamGroupingBy {
         groupingByHeightKidsCount(persons); 
         twoLevelGroupWithCount(persons);
         **/
-        threeLevelGroup(persons);
+       // threeLevelGroup(persons);
+       groupAndSort(persons);
+
+
     }
     public static void groupingBy(List<Person> personList){
        Map<Integer,List<Person>> map =  personList.stream()
@@ -100,6 +105,18 @@ public class StreamGroupingBy {
                     );
             map.entrySet().forEach(System.out::println);
      }
+
+    public static void groupAndSort(List<Person> persons){
+        Map<String,List<Person>> map = persons.stream()         
+                                                .filter(per -> per.getName() != null)
+                                                .collect(Collectors.groupingBy(
+                                                    Person::getName,
+                                                    HashMap::new,
+                                                    Collectors.toList()
+                                                ));
+        map.entrySet()
+            .forEach(System.out::println);
+    }
   
     
 }

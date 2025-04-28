@@ -1,0 +1,8 @@
+Write a test calss to call a main class 
+
+Have a list of string
+check each string which matches other 
+    casesensitive - freq
+    caseInsensitive - freq
+
+Use streams

@@ -13,6 +13,8 @@ public class FindMaxMin {
                                     .collect(Collectors.maxBy(Comparator.naturalOrder()));
             System.out.println("Max : "+max.get());
 
+           System.out.println( listOfIntegers.stream().max(Comparator.naturalOrder()));
+
             Optional<Integer> min = listOfIntegers.stream()
                                     .collect(Collectors.minBy(Comparator.naturalOrder()));
             System.out.println("Min : "+min.get());

@@ -1,0 +1,29 @@
+Map<String,List<Employee>
+
+List<Employee> employeeList = new ArrayList<>();
+
+Map<String,List<Employee> = employeeList.stream() //stream employee object
+                    .filter(employeeList.getDepartment() != null)
+                    .sorted(employeeList::getSalary)
+                    .collect(Collectors.groupingBy(
+                        employee -> employee.getDepartment,
+                        LinkedList::new,
+                        Collectors.toList()
+                    ));
+
+
+public class MySingletonClass {
+    private MySingletonClass(){
+
+    }
+
+    public static MySingletonClass mc; 
+
+    public static MySingletonClass getInstance(){
+        if(mc == null)
+        Synchronized(MySingletonClass.class)
+        if(mc == null){
+            return new MySingletonClass();
+        }
+    }
+    }

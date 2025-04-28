@@ -1,0 +1,5 @@
+String inPut = “aaa bb z cccc z ded”;
+ 
+outPutFirst = “zz ded”;
+ 
+outPutFinal = “ded”;

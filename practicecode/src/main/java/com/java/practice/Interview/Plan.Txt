@@ -1,0 +1,205 @@
+Here’s a focused 10-day prep plan tailored to your target areas. Each day covers core concepts and includes hands-on practice, review, and mock questions.
+
+---
+
+### 🔟 **10-Day Full Prep Plan**
+
+#### **Day 1: MongoDB/SQL**
+- 🔸 Review data modeling, CRUD, indexing
+- 🔸 Practice Aggregation Framework (lookup, group, unwind, etc.)
+- 🔸 Read: Official MongoDB Aggregation Pipeline docs
+- 🔸 Hands-on: Build nested aggregations and optimize queries
+- 🔹 **Mock Questions**: Write an aggregation to group by nested field; Optimize a slow query
+
+---
+
+#### **Day 2: Microservices - Fundamentals**
+- 🔸 Core principles (bounded context, loose coupling)
+- 🔸 Architecture design: API Gateway, Service Registry (Eureka, Consul)
+- 🔸 Study inter-service communication: REST vs gRPC
+- 🔹 **Mock Questions**: Design a microservice architecture for an e-commerce system
+
+---
+
+#### **Day 3: Microservices - Advanced Patterns**
+- 🔸 Circuit Breaker (Resilience4j/Hystrix), Rate Limiting
+- 🔸 Containerization with Docker (multistage build, image optimization)
+- 🔸 Deployment on Kubernetes (Deployment, Service, ConfigMap)
+- 🔹 **Practice**: Create a microservice, deploy to K8s with Resilience4j
+- 🔹 **Mock**: What happens during a service failure? How does circuit breaker help?
+
+---
+
+#### **Day 4: Messaging & Event Streaming**
+- 🔸 Kafka core concepts: Topics, partitions, replication
+- 🔸 Consumers, consumer groups, offset management
+- 🔸 RabbitMQ basics (exchanges, queues, routing)
+- 🔹 Hands-on: Create producer/consumer in Java
+- 🔹 **Mock**: Explain at-least-once vs exactly-once delivery
+
+---
+
+#### **Day 5: Java 11 & 17**
+- 🔸 Key features: var, modules, records, pattern matching, switch expressions, sealed classes
+- 🔸 Streams API, CompletableFuture, Optional
+- 🔹 **Practice**: Use new features in small examples
+- 🔹 **Mock**: What's the difference between `var` and `final var`?
+
+---
+
+#### **Day 6: DSA + System Design**
+- 🔸 Review key DSA topics: Arrays, HashMap, LinkedList, Stack, Queue, Trees
+- 🔸 Solve 3–5 real-world problems (Leetcode, HackerRank)
+- 🔸 Read basic system design concepts (scalability, caching, data partitioning)
+- 🔹 **Mock**: Design a URL shortening service
+
+---
+
+#### **Day 7: Performance Tuning & JVM Internals**
+- 🔸 GC types: G1, ZGC, CMS
+- 🔸 JVM structure: heap, metaspace, permgen
+- 🔸 Tools: VisualVM, JMC, JFR
+- 🔹 Practice: Analyze heap dumps, tune JVM flags
+- 🔹 **Mock**: App has GC spikes every hour—how would you debug it?
+
+---
+
+#### **Day 8: Caching**
+- 🔸 Redis architecture, Memcached comparison
+- 🔸 Strategies: TTL, eviction, write-through/behind
+- 🔹 Hands-on: Implement caching in a Spring Boot app
+- 🔹 **Mock**: Explain cache invalidation in distributed environments
+
+---
+
+#### **Day 9: Monitoring & Observability**
+- 🔸 Tools: Prometheus, Grafana, ELK stack
+- 🔸 Distributed tracing: Jaeger, Zipkin
+- 🔹 Hands-on: Instrument app with Micrometer + Prometheus
+- 🔹 **Mock**: What metrics would you monitor in a microservice?
+
+---
+
+#### **Day 10: Mock Interview Day**
+- 🔸 1 hour technical mock: Java + Microservices
+- 🔸 1 hour system design mock
+- 🔸 1 hour behavioral & project discussion
+- 🔹 Review weak areas, revise key concepts
+
+---
+
+Would you like me to add specific coding questions or system design scenarios for any of these days?
+
+
+Awesome! Here are **specific coding questions and system design scenarios** for each relevant day. This will help you test yourself more thoroughly:
+
+---
+
+### ✅ **Day-by-Day Add-on: Coding & Design Challenges**
+
+#### **🟢 Day 1 – MongoDB**
+**Coding Tasks:**
+- Write an aggregation to:
+  - Count the number of users per country
+  - List top 3 products per category by sales
+- Query optimization:
+  - Index suggestions for query filtering on multiple fields
+
+---
+
+#### **🟢 Day 2 – Microservices Basics**
+**Design Scenario:**
+- **Design a URL Shortener (like Bitly)**
+  - Focus on separation of services, API Gateway, DB per service
+  - Discuss read/write optimization, scalability
+
+**Coding:**
+- RESTful controller for UserService (register/login APIs)
+
+---
+
+#### **🟢 Day 3 – Microservices Advanced**
+**Design Scenario:**
+- **Design a Ride-Sharing System (Uber-style)**
+  - Include location service, trip service, notification service
+  - Use Kafka for real-time updates
+
+**Coding:**
+- Implement a basic circuit breaker using Resilience4j in a Spring Boot app
+
+---
+
+#### **🟢 Day 4 – Kafka & RabbitMQ**
+**Kafka Tasks:**
+- Write a Spring Boot Kafka producer & consumer
+- Implement offset handling manually
+- Simulate at-least-once delivery and idempotency
+
+**RabbitMQ:**
+- Setup exchange -> queue bindings using routing keys
+- Write a retry mechanism using dead-letter queue
+
+---
+
+#### **🟢 Day 5 – Java 11/17**
+**Coding Questions:**
+- Implement a custom Collector for Java Streams
+- Demonstrate use of `sealed classes` and `record`
+- Convert nested if-else with pattern matching for `instanceof`
+
+---
+
+#### **🟢 Day 6 – DSA + System Design**
+**Coding:**
+- Implement:
+  - LRU Cache
+  - Rate Limiter (Token Bucket or Leaky Bucket)
+  - Merge K sorted lists
+
+**Design Scenario:**
+- **Design an E-commerce Checkout System**
+  - Inventory, Payment, Notification, Cart Services
+  - Support for async order processing (Kafka)
+
+---
+
+#### **🟢 Day 7 – JVM & Optimization**
+**Tasks:**
+- Analyze a sample heap dump using Eclipse MAT or VisualVM
+- Identify memory leak in a sample app
+- Write Java code causing `OutOfMemoryError`, and explain how to tune it
+
+---
+
+#### **🟢 Day 8 – Caching**
+**Coding:**
+- Implement Redis-based cache in Spring Boot
+- Demonstrate write-through cache
+- Invalidate cache on update, and track metrics
+
+**Scenario:**
+- Explain how you’d cache a frequently accessed product catalog in a distributed service
+
+---
+
+#### **🟢 Day 9 – Monitoring**
+**Tasks:**
+- Instrument a Spring Boot app with Micrometer + Prometheus
+- Visualize:
+  - HTTP request latency
+  - GC metrics
+  - Error rate per endpoint
+- Set up a Grafana alert if error rate > 5% over 5 mins
+
+---
+
+#### **🟢 Day 10 – Mock Interviews**
+Simulate:
+1. **Java + Kafka**: Write a service that consumes Kafka events, processes them, and updates MongoDB with error handling.
+2. **System Design**: Design a Notification System (SMS + Email + Push)
+   - Include retry policies, deduplication, rate limiting
+3. **Behavioral**: Discuss a challenging bug or production incident you resolved.
+
+---
+
+Would you like templates or starter projects for any of these hands-on tasks?

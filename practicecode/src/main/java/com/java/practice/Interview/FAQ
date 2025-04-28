@@ -1,0 +1,179 @@
+Interview Questions:
+
+Java 
+====================================
+1) Functional Interface, why? can lamda implemented only on functional Interface. why?
+2) Why Date api in java 8? 
+3) Immutable classes in java
+4) String, Buffer, Builder. Thread safe. Realtime example
+5) Blocking and non blocking mechanism.
+6) Synchronized vs concurrent collection 
+7) Stream api pipeline. Terminal, intermediate
+8) Programs on stream. 
+9) Programs on date.
+10) Two json files comparision on java. How? Library?
+11) Solid
+12) Parallel vs Concurrency thread
+13) Lifecycle of thread
+14) GC Life cycle 
+15) OutOf Memory in prod
+16) Factory, Singleton DP
+17) equals, ==
+18) Hash map -> object as key -> override hashcode & equals  -> internal archi
+19) concurrent hashmap 
+20) Generics
+21) Create a employee class, fetch dept == HR.
+22) Create a map with key= Dept and value = emp object
+23) List internal working
+24) Serialization and its uses
+25) How model class get mapped into response
+26) parallel stream vs stream
+27) Immutable class, contract
+28) why stream is lazy?
+29) parallel stream data modification issue
+30) Hashing collision in set
+31) Load factor in hash map 
+32) HAS a ; IS a relationship
+33) String immutable reason?
+34) Types of inheritance (hybrid)
+35) JVM, JRE, JDK
+
+
+
+
+
+
+Thread
+=================================================
+Lifecycle of thread
+concurrent modification, why?
+concurrent hashmap internal locking mechanism
+Reentrant lock
+Hastset internal working mechanism
+concurrent vs synchronized vs reentrant lock 
+Thread pool
+Types of threadpool
+Executerservice example?
+completeable future example
+submit vs execute
+create n no of threads at a time 
+volatile 
+runnable vs callable 
+
+
+
+
+Mico services 
+==================================================
+1) Event source pattern?
+2) NFR?
+3) Fall back mechanism, how to implement?
+4) Saga pattern? why? usecase
+5) Scenario based
+6) Application design
+7) Gateway clear picture 
+8) Rate limiter
+9) Current Architecture
+
+
+
+AWS
+========================================
+1) What are all the features used?
+2) s3 - types of storage
+3) Public, private, hybrid n/w
+4) SNS, SQS
+5) EMR
+6) Deployment in aws
+
+
+
+KAFKA 
+===========================================
+1) Components
+2) why high throughput?
+3) What is broker?
+4) Partition how to implement?
+5) Cluster- topic
+6) consumer group depth
+7) Producer failed msg
+8) Consumer failed msg
+9) levels of acknowlegment in kafka
+10) Retry mechanism
+11) How will you make replicas?
+12) Leader & co-ordinator
+13) Broker failed, what will happen
+14) Replicas 
+
+
+DB 
+==================================================
+1) 2PC Commit
+2) Eventual commit
+3) Fetch using windows functions
+4) Performance fast? how?
+5) Entity cache, query cache
+6) 2nd Highest Salary
+7) Usage of group by, partition by
+8) Performance tuning 
+9) Fetch tables rows not in another table
+10) Hibernate relation -> one to many & many to one , how that table looks like
+11) Many to many
+12) Jpa annotation, uses over hibernate
+13) index 
+14) Entity lifecycle 
+15) JPA CRUD 
+16) Mongo DB -> refrence key
+17) JOIN - INNER VS OUTER; LEFT OUTER 
+18) Detached state entity how will bring back to persist state
+19) Isolation level
+20) Normalization Types 
+
+
+
+
+SPRING / BOOT
+=================================================
+1) Spring IOC
+2) Application context
+3) Bean SCope & usage 
+4) Annotations
+5) Validation (nonnull, size)
+6) Spring boot features 
+7) JWT in spring
+8) Spring Reactive
+9) Spring version; spring boot version;
+10) @Component @controller @RestController @Service @Bean @Configuration
+11) Spring boot features 
+12) Versioning in Rest url other than path 
+
+
+
+
+Programs 
+==================================================
+1) Stream -> Firts non occuring, occuring
+2) balanced brackets
+3) Groupby -> frequency 
+4) Groupby with value -> index list 
+5) integers [] -> max occuring int 
+6) lamda -> thread, sum
+7) Employee object group by Dept , sort by salary
+8) int[] -> find duplicate, find indexes
+9) string [] = find index, frequency
+10) custom Hahmap creation
+
+
+
+CI/CD
+==============================================
+1) Jenkins pipeline, how to create
+2) stages of deployment
+
+
+DS 
+===============================================
+1) Sort int[] and get 3rd largest no 
+2) Find least string - sliding window 
+3) Pattern finding (Repeated character eliminate) 
+4) Anagram without hash and sort method

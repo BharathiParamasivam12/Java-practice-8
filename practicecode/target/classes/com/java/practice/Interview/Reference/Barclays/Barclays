@@ -1,0 +1,95 @@
+
+
+Singleton class : 
+
+
+
+public class MySingletonClass {
+
+    private MySingletonClass(){
+
+    }
+
+    public static MySingletonClass sc;
+
+    public static Synchronized MySingletonClass getInstance(){
+        if(sc == null){
+           return new MySingletonClass();
+        }
+    }
+
+}
+
+//Base Interface 
+
+public interface Connectors{
+    // void doConnection();
+}
+
+// concrete classes -> snowflake , databricks
+
+public class snowflake implements Connectors{
+
+    @override : doConnection() // do logic for connection snowflake
+}
+
+
+public class Databricks implements Connectors{
+
+    @override : doConnection() // do logic for connection databricks 
+}
+
+
+// Factory class 
+
+public class FactoryConnectorClass {
+
+    ApplicationContext ctx;
+
+    Connectors createInstance(String beanName){
+        return ctx.getBean(beanName);
+    }
+
+}
+
+// Main method or service layer call 
+
+public class MainServiceClass {
+
+    @Autowired FactoryConnectorClass Factory;
+
+        Connectors conn = Factory.createInstance("Snowflake");
+        conn.doConnection();
+
+
+}
+
+
+
+List<Employee> emplList = response of rePO; 
+List<Response> responseObj = new ArrayList<>();
+
+
+emplList.stream() // convert the list of dto into streams
+    .mapToObj(emp -> responseObj)
+    .filter(emp -> emp::getSalary > 100000)
+    .collect(Collectors.toLits());
+
+    .equals() -> content 
+     == 
+
+
+Select max(salary) from Emp orderby salary desc limit (n-1);
+
+    select * from Employee GroupBY dept Having dept =IT;
+
+    select max(salary), empName, from Employee 
+                    GroupBy dEPT
+
+                    source - 10 rows
+                    target - 6 rows 
+
+    select * from source as s 
+        LEFT JOIN target as t 
+            where s.id NOT IN  t.id;
+    

@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class FindMax {
     public static void main(String[] args) {
@@ -23,6 +24,12 @@ public class FindMax {
                     .max(Integer::compare)
                     .get()
                     );
+        System.out.println(
+            IntStream.of(myList)
+            .mapToObj(i-> (int)i)
+                .collect(Collectors.maxBy(Comparator.naturalOrder())).get()
+
+        );
 
         
     }

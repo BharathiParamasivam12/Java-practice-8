@@ -16,5 +16,9 @@ public class FindCommonElem {
         .filter(list2::contains)
         .toList().forEach(System.out::println);;
       
+        System.out.println("Not contains");
+        list1.stream()
+        .filter(e -> !list2.contains(e))
+        .toList().forEach(System.out::println);
     }
 }
