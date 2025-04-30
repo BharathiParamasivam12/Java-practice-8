@@ -8,9 +8,9 @@ public class MyClass {
 
         String s = new String("5");
 
-        System.out.println(1 + 10 + s + 1 + 10);
+        System.out.println(1 + 10 + s + 1 + 10); // whats the output
 
-        int[] arr = { 100,14, 46, 47, 94, 98, 52, 86, 36, 94, 89 };
+        int[] arr = { 100,14, 46, 47, 94, 98, 52, 86, 36, 94, 89 }; //remove duplicates
         TreeSet<Integer> set = new TreeSet<>();
         for(int i=0; i<arr.length;i++){
             

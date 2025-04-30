@@ -1,4 +1,4 @@
-package com.java.practice.Interview.Intellias;
+package com.java.practice.Interview.Reference.Intellias;
 
 import java.util.Arrays;
 import java.util.List;

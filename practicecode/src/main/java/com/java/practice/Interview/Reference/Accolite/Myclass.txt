@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 public class Myclass {
+    // minimum window substring 
     
     public static void main(String[] args) {
        /**
@@ -32,6 +33,7 @@ public class Myclass {
             System.out.println(list);
             **/
 
+           /// to find positive integers and divisible by 2
            
             int[] ar = new int[]{2,0,-3,8,-4};
             List<Integer> mylist =     IntStream.of(ar)
