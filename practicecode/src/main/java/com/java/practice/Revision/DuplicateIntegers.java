@@ -31,7 +31,7 @@ public class DuplicateIntegers {
                         .collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
             map.entrySet()
                     .stream()
-                   .sorted(Map.Entry.<Integer, Integer>comparingByValue().reversed())
+                    .sorted(Map.Entry.comparingByKey())
                     .forEach(System.out::println);
                    
     }

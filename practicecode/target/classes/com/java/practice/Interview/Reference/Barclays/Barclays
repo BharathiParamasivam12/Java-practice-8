@@ -79,9 +79,9 @@ emplList.stream() // convert the list of dto into streams
      == 
 
 
-Select max(salary) from Emp orderby salary desc limit (n-1);
+Select max(salary) from Emp orderby salary desc limit (n-1) offset 1;
 
-    select * from Employee GroupBY dept Having dept =IT;
+    select * from Employee GroupBY dept where dept =IT;
 
     select max(salary), empName, from Employee 
                     GroupBy dEPT
@@ -91,5 +91,5 @@ Select max(salary) from Emp orderby salary desc limit (n-1);
 
     select * from source as s 
         LEFT JOIN target as t 
-            where s.id NOT IN  t.id;
+            where t.id is NULL;
     

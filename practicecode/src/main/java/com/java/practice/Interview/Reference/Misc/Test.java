@@ -14,15 +14,6 @@ public class Test {
         String[] input = new String[]{"Apple", "Orange", "Orange", "Apple","Banana", "Orange"};
         
        // Apple, 2, [1,4]
-      Map<String,Long> map = Stream.of(input)
-                .map(i -> String.valueOf(i))
-                .collect(Collectors.groupingBy(
-                   Function.identity(), Collectors.counting()
-                ));
-
-    //    map.entrySet()
-      //      .forEach(System.out::println);
-
            Map<String,List<Integer>> mapnew = IntStream.range(0, input.length)
                                                 .boxed()
                                                 .collect(Collectors.groupingBy(

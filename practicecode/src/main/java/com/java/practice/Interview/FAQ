@@ -37,6 +37,10 @@ Java
 33) String immutable reason?
 34) Types of inheritance (hybrid)
 35) JVM, JRE, JDK
+36) Object cloning, why needed?
+37) Why default and static in java 8?
+38) Exception Hierarchy level
+39) write a simple class and explain solid principle violates or achieved
 
 
 
@@ -59,6 +63,7 @@ submit vs execute
 create n no of threads at a time 
 volatile 
 runnable vs callable 
+forkjoin()
 
 
 
@@ -74,6 +79,11 @@ Mico services
 7) Gateway clear picture 
 8) Rate limiter
 9) Current Architecture
+10) cqrs 
+11) Security before gateway
+12) Security in microservice
+13) JWT token generation , parts and expiration
+14) How to refresh token, will it create a new token?
 
 
 
@@ -85,6 +95,8 @@ AWS
 4) SNS, SQS
 5) EMR
 6) Deployment in aws
+7) ECR
+8) fULL Deployment cycle
 
 
 
@@ -128,6 +140,9 @@ DB
 18) Detached state entity how will bring back to persist state
 19) Isolation level
 20) Normalization Types 
+21) Index internal working mechanism and whats the Data structure it uses internally?
+22) Many to Many relationship (empolyee have multiple roles.) how to implement?
+23) Keys (Unique key) where it is needed?
 
 
 
@@ -146,7 +161,10 @@ SPRING / BOOT
 10) @Component @controller @RestController @Service @Bean @Configuration
 11) Spring boot features 
 12) Versioning in Rest url other than path 
-
+13) Bean creation - ioc, dependency injcetion 
+14) DI ways 
+15) Circular dependency issue
+16) Rest api annotations
 
 
 

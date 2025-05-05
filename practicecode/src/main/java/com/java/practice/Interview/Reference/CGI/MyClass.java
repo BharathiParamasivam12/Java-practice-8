@@ -9,9 +9,10 @@ import java.util.List;
 
 public class MyClass {
     public static void main(String[] args) {
+        //find duplicate
           String pathOfFile = "path of the file";
           try{
-           List<Integer> listInput = Arrays.asList(12,7,29,2,9);
+           List<Integer> listInput = Arrays.asList(12,7,29,2,9,9);
            HashSet<Integer> outSet = new HashSet<>();
            List<Integer> out = listInput.stream()
                     .filter(in -> !outSet.add(in))

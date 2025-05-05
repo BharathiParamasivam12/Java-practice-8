@@ -13,8 +13,7 @@ public class MyClass {
     public static void main(String[] args) {
         MyClass cMyClass =  new MyClass();
     
-          System.out.println(
-         doOcuurenece("java", false));
+          System.out.println(doOcuurenece("java", false));
        }
     
 

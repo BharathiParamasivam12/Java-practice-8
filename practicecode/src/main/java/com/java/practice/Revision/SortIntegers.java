@@ -12,7 +12,7 @@ public class SortIntegers {
                 .sorted()
                 .toList().forEach(System.out::println);
         
-        System.out.println("The sorted list is : DESC Order");
+         System.out.println("The sorted list is : DESC Order");
          myList.stream()
                 .sorted(Comparator.reverseOrder())
                 .toList().forEach(System.out::println);
