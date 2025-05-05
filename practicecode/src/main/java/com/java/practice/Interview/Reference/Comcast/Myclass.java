@@ -1,4 +1,4 @@
-package com.java.practice.Interview.Comcast;
+package com.java.practice.Interview.Reference.Comcast;
 
 import java.util.Arrays;
 import java.util.List;
