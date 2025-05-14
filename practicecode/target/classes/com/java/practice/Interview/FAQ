@@ -41,7 +41,15 @@ Java
 37) Why default and static in java 8?
 38) Exception Hierarchy level
 39) write a simple class and explain solid principle violates or achieved
-
+40) Function oriented programming - lamda
+41) higher order of function calling 
+42) stream parallel
+43) Recursive with out loop and stream with lamda
+44) Completable future in depth use case
+45) Java 17 -> record, sealed class use case
+46) Map -> object as key, how collision handled and how hashcode generated
+47) Serialization working internally with and without serailUID and how deserialization works
+48) Exception handling with try (throws), catch(return string) & finally(return something)
 
 
 
@@ -63,7 +71,7 @@ submit vs execute
 create n no of threads at a time 
 volatile 
 runnable vs callable 
-forkjoin()
+forkjoin() model
 
 
 
@@ -84,6 +92,8 @@ Mico services
 12) Security in microservice
 13) JWT token generation , parts and expiration
 14) How to refresh token, will it create a new token?
+15) Security on Rest api 
+16) Car parking slot 
 
 
 
@@ -115,7 +125,8 @@ KAFKA
 11) How will you make replicas?
 12) Leader & co-ordinator
 13) Broker failed, what will happen
-14) Replicas 
+14) Replicas how many?
+15) How and why partition is needed?
 
 
 DB 
@@ -143,6 +154,9 @@ DB
 21) Index internal working mechanism and whats the Data structure it uses internally?
 22) Many to Many relationship (empolyee have multiple roles.) how to implement?
 23) Keys (Unique key) where it is needed?
+24) How to create two data transactional source at same time
+25) Conjuction table query with join 
+26) 
 
 
 
@@ -165,6 +179,8 @@ SPRING / BOOT
 14) DI ways 
 15) Circular dependency issue
 16) Rest api annotations
+17) Custom annotation -> log print
+18) Blocking the request - spring reactive
 
 
 
@@ -180,6 +196,9 @@ Programs
 8) int[] -> find duplicate, find indexes
 9) string [] = find index, frequency
 10) custom Hahmap creation
+11) Optional usecase
+12) Binart search tree
+13) java stream -> teeing
 
 
 
@@ -187,6 +206,8 @@ CI/CD
 ==============================================
 1) Jenkins pipeline, how to create
 2) stages of deployment
+3) kubernetes commands
+4) Docker commands to remove image, build, container
 
 
 DS 
@@ -195,3 +216,4 @@ DS
 2) Find least string - sliding window 
 3) Pattern finding (Repeated character eliminate) 
 4) Anagram without hash and sort method
+5) 

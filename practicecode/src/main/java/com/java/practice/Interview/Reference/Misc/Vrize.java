@@ -7,6 +7,8 @@ import java.util.List;
 public class Vrize {
 
     public static void main(String[] args) {
+
+      //print continous occuring nos
         String inputArr[] = {"1", "2","3","5","9", "a", "6", "7" ,"8" ,"4" ,"@", "-5", "-7" ,"-3", "-2" ,"-1"};
         List<Integer> in = new ArrayList<>();
         List<Integer> out = new ArrayList<>();
@@ -14,7 +16,7 @@ public class Vrize {
 
         for(String i : inputArr){
             try{
-                 in.add(Integer.parseInt(i));
+              in.add(Integer.parseInt(i));
             }catch(Exception e){
 
             }

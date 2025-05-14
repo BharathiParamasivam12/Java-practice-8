@@ -1,5 +1,6 @@
 package com.java.practice.Interview.Reference.Misc;
 
+import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
@@ -24,6 +25,7 @@ public class Test {
 
           for(String i : mapnew.keySet()){
                 System.out.println(i+"="+mapnew.get(i).size()+"="+mapnew.get(i));      
-          }        
+          }   
+          
     }
 }

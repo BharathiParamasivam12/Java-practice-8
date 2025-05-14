@@ -1,0 +1,52 @@
+package com.java.practice.Interview.Reference;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import com.java.practice.Interview.Reference.Comcast.Myclass;
+
+public class Wipro {
+    Public class MyClass{
+	public static void main(String[] args){
+		String input  = “Ravi Krishna”;
+		Myclass.doLogic(input);
+	}
+	public static void doLogic(String input){
+	//List<String> output = input.split(“ “));
+	for(String i: output){
+		stack.pop(i);
+	}
+	for(int I=output.size-1; I>0();I—){
+	sysout(output.get(I));
+	}
+}
+
+
+Map<String, String> ob1 = new Map<String, String>();
+
+Map<String, String> ob2 = new HashMap<String, String>(); 
+//ob2 -> 
+
+HashMap<String, String> ob3 = new HashMap<String, String>();
+//obj3 
+
+HashMap<String, String> ob4 = new Map<String, String>();
+
+
+
+String input =   "India is my country India is a secular country I love India”;
+
+o/p - India - 3
+is - 2
+my - 1
+
+Map<String, Long> map = Stream.of(input.split(“ ”))
+	.collect(Collectors.groupingBy(
+			Function.identity(),
+			Collectors.counting());
+
+map.entrySet().forEach(System.out::println);
+
+
+
+}

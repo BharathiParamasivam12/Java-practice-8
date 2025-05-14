@@ -18,6 +18,6 @@ public class Cap {
       System.out.println(  map.entrySet()
             .stream()
             .collect(Collectors.maxBy(Map.Entry.comparingByValue())).get());
-
+         
     }
 }
