@@ -72,6 +72,8 @@ create n no of threads at a time
 volatile 
 runnable vs callable 
 forkjoin() model
+Explain the difference between Callable and Runnable. Provide an example.
+
 
 
 
@@ -156,7 +158,10 @@ DB
 23) Keys (Unique key) where it is needed?
 24) How to create two data transactional source at same time
 25) Conjuction table query with join 
-26) 
+26)How do you implement pagination and filtering in Spring Boot with a PostgreSQL backend?
+27)How would you analysis optimize a slow SQL query?
+28)When would you use stored procedures over application logic?How does Indexing work?
+
 
 
 
@@ -181,6 +186,10 @@ SPRING / BOOT
 16) Rest api annotations
 17) Custom annotation -> log print
 18) Blocking the request - spring reactive
+19)How would you design a rate limiter for an API?What are promises and how do they work?
+20)How do you ensure your Spring Boot application is scalable and maintainable?
+21)How do you handle concurrent updates in a Spring Boot application?
+22)What are the best practices for designing RESTful APIs?What are the best practices for optimizing the performance of 23)REST APIs? http status code : 400 , 403 , 404 : 401
 
 
 
