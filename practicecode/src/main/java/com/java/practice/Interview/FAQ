@@ -50,6 +50,7 @@ Java
 46) Map -> object as key, how collision handled and how hashcode generated
 47) Serialization working internally with and without serailUID and how deserialization works
 48) Exception handling with try (throws), catch(return string) & finally(return something)
+49) == & equals in wrapper class (Integer, Double etc..)
 
 
 
@@ -189,7 +190,10 @@ SPRING / BOOT
 19)How would you design a rate limiter for an API?What are promises and how do they work?
 20)How do you ensure your Spring Boot application is scalable and maintainable?
 21)How do you handle concurrent updates in a Spring Boot application?
-22)What are the best practices for designing RESTful APIs?What are the best practices for optimizing the performance of 23)REST APIs? http status code : 400 , 403 , 404 : 401
+22)What are the best practices for designing RESTful APIs?What are the best practices for optimizing the performance of 
+23)REST APIs? http status code : 400 , 403 , 404 : 401
+24) Override default properties of @EnableAutoConfiguration
+
 
 
 
@@ -225,4 +229,4 @@ DS
 2) Find least string - sliding window 
 3) Pattern finding (Repeated character eliminate) 
 4) Anagram without hash and sort method
-5) 
+5) Binary Search tree implementation

@@ -5,6 +5,7 @@ import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.function.BiPredicate;
 import java.util.function.BinaryOperator;
 import java.util.function.Function;
 import java.util.stream.Collector;
@@ -47,6 +48,14 @@ public class Test {
       Integer c = binaryOperator.apply(10, 20);
       System.out.println(c);
 
+      BiPredicate<Integer,Integer> biPredicate = (a,b)-> (a>100) ? true : false;
+      
+      Thread thread2 = new Thread(
+        () -> {
+            System.out.println("Hi");
+        }
+      );
+      thread2.start();
 
     }
 }

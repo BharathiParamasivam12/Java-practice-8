@@ -1,0 +1,5 @@
+recursive - factorial
+streams -> order [distinct, sorted, limit]
+entity -> parent update auto update child too. how to do?
+parent - child entities. stackoverflow issue during serialization. many to one and one to many, how to deal. 
+git rebase vs merge

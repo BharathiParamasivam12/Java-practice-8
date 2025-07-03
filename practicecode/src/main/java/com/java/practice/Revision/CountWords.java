@@ -16,12 +16,14 @@ public class CountWords {
                 ));
         System.out.println("Find the frequency of elements : ");
 
-        map.forEach((k,v) -> System.out.println(k +" -> "+v));
-
+        map.forEach(
+            (k,v) -> System.out.println(k + " : "+v)
+        );
+     
         System.out.println("Find only the duplicate elements : ");
         map.entrySet()
             .stream()
-            .filter(entry-> entry.getValue()>1)
+            .filter(entry -> entry.getValue() >1)
             .forEach(System.out::println);
     }
 }
